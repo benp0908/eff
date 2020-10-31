@@ -21,7 +21,7 @@
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm" ],
-    [ "norm", "norm", "nest", "norm", "wall", "norm", "nest", "norm", "norm" ],
+    [ "norm", "norm", "nest", "norm", "automaze", "norm", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "norm", "roid", "norm", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "norm", "norm", "norm", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm" ],
