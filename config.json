@@ -17,17 +17,17 @@
   "RANDOM_COLORS": false,
   "BANNED_CHARACTER_REGEX": "/[\uFDFD\u200E\u0000]/gi", 
   "ROOM_SETUP": [
-    [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
-    [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
+    [ "bas1", "mbc1", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
+    [ "mbc1", "mbc1", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm" ],
-    [ "norm", "norm", "nest", "norm", "mbc1", "norm", "nest", "norm", "norm" ],
+    [ "norm", "norm", "nest", "norm", "norm", "norm", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "norm", "roid", "norm", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "norm", "norm", "norm", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm" ],
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
-    [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
-    [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ]
+    [ "mbc2", "mbc2", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
+    [ "bas2", "mbc2", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ]
   ],
   "X_GRID": 9,
   "Y_GRID": 9,
