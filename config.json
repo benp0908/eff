@@ -17,7 +17,7 @@
   "RANDOM_COLORS": false,
   "BANNED_CHARACTER_REGEX": "/[\uFDFD\u200E\u0000]/gi", 
   "ROOM_SETUP": [
-    [ "dom1", "mbc1", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
+    [ "dbc1", "mbc1", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "mbc1", "mbc1", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm" ],
@@ -27,7 +27,7 @@
     [ "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm" ],
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "mbc2", "mbc2", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
-    [ "dom2","mbc2", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ]
+    [ "dbc2","mbc2", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ]
   ],
   "X_GRID": 9,
   "Y_GRID": 9,
@@ -66,6 +66,6 @@
   "MIN_SPEED": 0.001,
   "FOOD_AMOUNT": 0, 
   "SKILL_BOOST": 3,
-  "BOTS": 0,
+  "BOTS": 7,
   "GLASS_HEALTH_FACTOR": 2
 }
