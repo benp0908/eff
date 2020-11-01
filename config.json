@@ -23,8 +23,8 @@
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "roid", "norm", "nest", "nest", "nest", "norm", "norm", "norm" ],
     [ "norm", "norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm" ],
-    [ "norm", "norm", "norm", "nest", "nest", "nest", "norm", "wall", "norm" ],
-    [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "mazewall", "norm" ],
+    [ "norm", "norm", "norm", "nest", "nest", "nest", "norm", "norm", "norm" ],
+    [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "norm", "norm", "norm", "norm", "roid", "norm", "norm", "norm" ],
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "roid", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "roid" ]
