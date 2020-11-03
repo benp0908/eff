@@ -4586,7 +4586,7 @@ var maintainloop = (() => {
             };
         })();
         return census => {
-            if (timer > 1500 && ran.dice(2000 - timer)) {
+            if (timer > 1000 && ran.dice(1000 - timer)) {
                 util.log('[SPAWN] Preparing to spawn...');
                 timer = 0;
                 let choice = [];
@@ -4595,8 +4595,8 @@ var maintainloop = (() => {
                         choice = [[Class.elite_destroyer], 2, 'a', 'nest'];
                         break;
                     case 1: 
-                        choice = [[Class.palisade], 1, 'castle', 'norm']; 
-                        sockets.broadcast('A strange trembling...');
+                        choice = [[Class.falbuster], 1, 'castle', 'norm']; 
+                        sockets.broadcast('A Fallen boss are coming...');
                         break;
                      case 2: 
                         choice = [[Class.skimboss], 1, 'castle', 'norm']; 
@@ -4610,7 +4610,7 @@ var maintainloop = (() => {
                         choice = [[Class.elite_sprayer], 1, 'a', 'nest'];
                         break;
                     case 5: 
-                        choice = [[Class.elite_gunner], 1, 'a', 'nest'];
+                        choice = [[Class.elite_gunner, Class.palisade], 1, 'a', 'nest'];
                         break;
                     case 6: 
                         choice = [[Class.elite_trapper], 1, 'a', 'nest'];
