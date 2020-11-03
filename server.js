@@ -4633,7 +4633,7 @@ var maintainloop = (() => {
                      sockets.broadcast('And A Fallen Hybrid?')
                         break;
                      case 13: 
-                         choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.aquamarine, Class.trapefightee, Class.elite_sprayerer, Class.eliteererere, Class.elite_fofa, Class.palisadees, Class.TK1, Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  exports.eexx1,  exports.Gun_ship, exports.gun_fort, exports.grush,   exports.square_boss, exports.awp53, exports.dradnought, exports.awp53, exports.iceee, exports.awpu6i3], 1, 'a', 'nest']; 
+                         choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.aquamarine, Class.trapefightee, Class.elite_sprayerer, Class.eliteererere, Class.elite_fofa, Class.palisadees, Class.TK1, Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  exports.eexx1,  exports.Gun_ship, exports.gun_fort, exports.grush,   exports.square_boss, exports.awp53, exports.dradnought, exports.awp53, exports.iceee, exports.awpu6i3, exports.awpega, exports.awpegamk2], 1, 'a', 'nest']; 
                      sockets.broadcast('Fuckin Boss is coming!');
                         break;
                     case 1: 
