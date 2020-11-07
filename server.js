@@ -4622,7 +4622,7 @@ var maintainloop = (() => {
                         sockets.broadcast('Never has the phrase "Square Up" been more acurate...');
                         break;
                      case 8: 
-                        choice = [[Class.skimboss, Class.summoner, Class.summonermk2, Class.palisade, Class.elite_destroyer, Class.elite_gunner, Class.elite_sprayer, Class.elite_trapper, Class.rindeeyr_kswyvmexqcxx], 1, 'a', 'norm']; 
+                        choice = [[Class.skimboss, Class.summoner, Class.summonermk2, Class.palisade, Class.elite_destroyer, Class.elite_defender, Class.elite_gunner, Class.elite_sprayer, Class.elite_trapper, Class.rindeeyr_kswyvmexqcxx], 1, 'a', 'norm']; 
                         sockets.broadcast('Some bosses are on their ways...');
                         break;
                     case 9: 
