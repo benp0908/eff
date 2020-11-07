@@ -4592,7 +4592,8 @@ var maintainloop = (() => {
                 let choice = [];
                 switch (ran.chooseChance(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 75,)) {
                     case 0: 
-                        choice = [[Class.elite_destroyer], 2, 'a', 'nest'];
+                        choice = [[Class.elite_destroyer], 1, 'a', 'nest'];
+                        sockets.broadcast('A boss are coming...');
                         break;
                     case 1: 
                         choice = [[Class.falbuster], 1, 'castle', 'norm']; 
@@ -4608,9 +4609,11 @@ var maintainloop = (() => {
                         break;
                      case 4: 
                         choice = [[Class.elite_sprayer], 1, 'a', 'nest'];
+                        sockets.broadcast('A boss are coming...');
                         break;
                     case 5: 
                         choice = [[Class.elite_gunner, Class.palisade], 1, 'a', 'nest'];
+                        sockets.broadcast('A boss are coming...');
                         break;
                     case 6: 
                         choice = [[Class.elite_trapper], 1, 'a', 'nest'];
