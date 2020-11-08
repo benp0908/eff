@@ -4603,34 +4603,30 @@ var maintainloop = (() => {
                         choice = [[Class.skimboss], 1, 'castle', 'norm']; 
                         sockets.broadcast('A strange trembling...');
                         break;
-                     case 3: 
-                        choice = [[Class.summoner], 2, 'a', 'norm']; 
-                        sockets.broadcast('The squares seem to slightly hate you now...');
-                        break;
-                    case 4: 
+                    case 3: 
                         choice = [[Class.elite_gunner, Class.palisade], 1, 'a', 'nest'];
                         sockets.broadcast('A boss are coming...');
                         break;
-                    case 5: 
+                    case 4: 
                         choice = [[Class.elite_trapper], 1, 'a', 'nest'];
                      sockets.broadcast('Traps ARE OP...');
                         break;
-                    case 6: 
+                    case 5: 
                         choice = [[Class.summoner, Class.summonermk2,], 1, 'castle', 'norm']; 
                         sockets.broadcast('Never has the phrase "Square Up" been more acurate...');
                         break;
-                     case 7: 
+                     case 6: 
                         choice = [[Class.skimboss, Class.summoner, Class.summonermk2, Class.palisade,  Class.elite_trapper, Class.rindeeyr_kswyvmexqcxx], 1, 'a', 'norm']; 
                         sockets.broadcast('Some bosses are on their ways...');
                         break;
-                    case 8: 
+                    case 7: 
                         choice = [[Class.sassafras, Class.fallen_hybrid], 1, 'a', 'norm']; 
                         sockets.broadcast('All hail LORD SASSAFRAS!!!');
                         sockets.broadcast('PS. I like crackers...')
                     sockets.broadcast('I Really Like Em ')
                      sockets.broadcast('And A Fallen Hybrid?')
                         break;
-                     case 9: 
+                     case 8: 
                          choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.elite_defender, Class.elite_gunner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.aquamarine, Class.elite_sprayerer,  Class.elite_fofa,  Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  exports.eexx1,  exports.gun_fort, exports.grush, exports.square_boss, exports.dradnought, exports.awp53, exports.iceee, exports.awpega, exports.awpegamk2], 1, 'a', 'nest']; 
                      sockets.broadcast('P.S love bosses!');
                         break;
