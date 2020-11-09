@@ -4596,7 +4596,7 @@ var maintainloop = (() => {
                         sockets.broadcast('A boss are coming...');
                         break;
                     case 1: 
-                        choice = [[Class.falbuster], 1, 'castle', 'norm']; 
+                        choice = [[Class.falbuster, Class.fallen_hybrid], 1, 'castle', 'norm']; 
                         sockets.broadcast('A Fallen boss are coming...');
                         break;
                      case 2: 
@@ -4620,11 +4620,10 @@ var maintainloop = (() => {
                         sockets.broadcast('Some bosses are on their ways...');
                         break;
                     case 7: 
-                        choice = [[Class.sassafras, Class.fallen_hybrid], 1, 'a', 'norm']; 
+                        choice = [[Class.sassafras], 1, 'a', 'norm']; 
                         sockets.broadcast('All hail LORD SASSAFRAS!!!');
                         sockets.broadcast('PS. I like crackers...')
                     sockets.broadcast('I Really Like Em ')
-                     sockets.broadcast('And A Fallen Hybrid?')
                         break;
                      case 8: 
                          choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.elite_defender, Class.elite_gunner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.elite_sprayerer,  Class.elite_fofa,  Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  Class.eexx1,  Class.square_boss,  Class.awp53, Class.iceee, Class.awpega, Class.awpegamk2, Class.elite_guardian, Class.god_guardian, Class.gun_fort], 1, 'castle', 'norm']; 
