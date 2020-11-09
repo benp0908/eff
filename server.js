@@ -4631,7 +4631,7 @@ var maintainloop = (() => {
                      sockets.broadcast('P.S love bosses!');
                         break;
                     case 1: 
-                        choice = [[Class.visultima, Class.aquamarine, Class.gun_fort, Class.grush, Class.dradnought], 1, 'a', 'nest']; 
+                        choice = [[Class.visultima, Class.aquamarine, Class.gun_fort, Class.grush, Class.dradnought, Class.trapefighter, Class.neut], 1, 'a', 'nest']; 
                         sockets.broadcast('Nest Guardian are coming...');
                         break;
                 }
