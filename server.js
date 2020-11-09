@@ -4590,9 +4590,9 @@ var maintainloop = (() => {
                 util.log('[SPAWN] Preparing to spawn...');
                 timer = 0;
                 let choice = [];
-                switch (ran.chooseChance(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 75,)) {
+                switch (ran.chooseChance(1, 1, 1, 1, 1, 1, 1, 1, 1, 1.5,)) {
                     case 0: 
-                        choice = [[Class.elite_destroyer], 1, 'a', 'nest'];
+                        choice = [[Class.elite_destroyer], 1, 'castle', 'norm'];
                         sockets.broadcast('A boss are coming...');
                         break;
                     case 1: 
@@ -4604,11 +4604,11 @@ var maintainloop = (() => {
                         sockets.broadcast('A strange trembling...');
                         break;
                     case 3: 
-                        choice = [[Class.elite_gunner, Class.palisade], 1, 'a', 'nest'];
+                        choice = [[Class.elite_gunner, Class.palisade], 1, 'castle', 'norm'];
                         sockets.broadcast('A boss are coming...');
                         break;
                     case 4: 
-                        choice = [[Class.elite_trapper], 1, 'a', 'nest'];
+                        choice = [[Class.elite_trapper], 1, 'castle', 'norm'];
                      sockets.broadcast('Traps ARE OP...');
                         break;
                     case 5: 
@@ -4627,12 +4627,12 @@ var maintainloop = (() => {
                      sockets.broadcast('And A Fallen Hybrid?')
                         break;
                      case 8: 
-                         choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.elite_defender, Class.elite_gunner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.aquamarine, Class.elite_sprayerer,  Class.elite_fofa,  Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  Class.eexx1,  Class.gun_fort, Class.grush, Class.square_boss, Class.dradnought, Class.awp53, Class.iceee, Class.awpega, Class.awpegamk2, Class.elite_guardian, Class.god_guardian], 1, 'a', 'nest']; 
+                         choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.elite_defender, Class.elite_gunner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.elite_sprayerer,  Class.elite_fofa,  Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  Class.eexx1,  Class.square_boss,  Class.awp53, Class.iceee, Class.awpega, Class.awpegamk2, Class.elite_guardian, Class.god_guardian], 1, 'castle', 'norm']; 
                      sockets.broadcast('P.S love bosses!');
                         break;
                     case 1: 
-                        choice = [[Class.visultima], 1, 'castle', 'norm']; 
-                        sockets.broadcast('VISITE TTOO COM...');
+                        choice = [[Class.visultima, Class.aquamarine, Class.gun_fort, Class.grush, Class.dradnought], 1, 'a', 'nest']; 
+                        sockets.broadcast('Nest Guardian are coming...');
                         break;
                 }
                 boss.prepareToSpawn(...choice);
