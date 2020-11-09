@@ -4627,11 +4627,11 @@ var maintainloop = (() => {
                      sockets.broadcast('And A Fallen Hybrid?')
                         break;
                      case 8: 
-                         choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.elite_defender, Class.elite_gunner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.elite_sprayerer,  Class.elite_fofa,  Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  Class.eexx1,  Class.square_boss,  Class.awp53, Class.iceee, Class.awpega, Class.awpegamk2, Class.elite_guardian, Class.god_guardian], 1, 'castle', 'norm']; 
+                         choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.elite_defender, Class.elite_gunner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.elite_sprayerer,  Class.elite_fofa,  Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  Class.eexx1,  Class.square_boss,  Class.awp53, Class.iceee, Class.awpega, Class.awpegamk2, Class.elite_guardian, Class.god_guardian, Class.gun_fort], 1, 'castle', 'norm']; 
                      sockets.broadcast('P.S love bosses!');
                         break;
                     case 1: 
-                        choice = [[Class.visultima, Class.aquamarine, Class.gun_fort, Class.grush, Class.dradnought, Class.trapefighter, Class.neut], 1, 'a', 'nest']; 
+                        choice = [[Class.visultima, Class.aquamarine, Class.grush, Class.dradnought, Class.trapefighter, Class.neut], 1, 'a', 'nest']; 
                         sockets.broadcast('Nest Guardian are coming...');
                         break;
                 }
