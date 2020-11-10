@@ -4586,17 +4586,17 @@ var maintainloop = (() => {
             };
         })();
         return census => {
-            if (timer > 1000 && ran.dice(1000 - timer)) {
+            if (timer > 3000 && ran.dice(3000 - timer)) {
                 util.log('[SPAWN] Preparing to spawn...');
                 timer = 0;
                 let choice = [];
-                switch (ran.chooseChance(1, 1, 1, 1, 1, 1, 1, 1, 1, 1.5,)) {
+                switch (ran.chooseChance(1, 1, 1, 1, 1, 1, 1, 1, 1, 1,)) {
                     case 0: 
-                        choice = [[Class.elite_destroyer], 1, 'castle', 'norm'];
+                        choice = [[Class.elite_destroyer, Class.elite_sniper], 1, 'castle', 'norm'];
                         sockets.broadcast('A boss are coming...');
                         break;
                     case 1: 
-                        choice = [[Class.falbuster, Class.fallen_hybrid], 1, 'castle', 'norm']; 
+                        choice = [[Class.falbuster,], 1, 'castle', 'norm']; 
                         sockets.broadcast('A Fallen boss are coming...');
                         break;
                      case 2: 
@@ -4616,7 +4616,7 @@ var maintainloop = (() => {
                         sockets.broadcast('Never has the phrase "Square Up" been more acurate...');
                         break;
                      case 6: 
-                        choice = [[Class.skimboss, Class.summoner, Class.summonermk2, Class.palisade,  Class.elite_trapper, Class.rindeeyr_kswyvmexqcxx], 1, 'a', 'norm']; 
+                        choice = [[Class.skimboss, Class.summoner, Class.summonermk2, Class.palisade,  Class.elite_trapper, Class.rindeeyr_kswyvmexqcxx], 1, 'castle', 'norm']; 
                         sockets.broadcast('Some bosses are on their ways...');
                         break;
                     case 7: 
@@ -4626,7 +4626,7 @@ var maintainloop = (() => {
                     sockets.broadcast('I Really Like Em ')
                         break;
                      case 8: 
-                         choice = [[Class.elite_f, Class.skimboss, Class.summoner, Class.elite_sprayer, Class.elite_defender, Class.elite_gunner, Class.elite_sprayer, Class.pal, Class.elite_trapper, Class.summonermk2, Class.fallen_hybrid, Class.elite_sprayerer,  Class.elite_fofa,  Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  Class.eexx1,  Class.square_boss,  Class.awp53, Class.iceee, Class.awpega, Class.awpegamk2, Class.elite_guardian, Class.god_guardian, Class.gun_fort], 1, 'castle', 'norm']; 
+                         choice = [[Class.elite_f, Class.skimboss, Class.elite_sprayer, Class.elite_defender, Class.elite_gunner, Class.pal, Class.elite_trapper, Class.elite_sprayerer,  Class.elite_fofa,  Class.PK3, Class.TK1org, Class.sz2miniboss, Class.sz1, Class.sz2, Class.ek1, Class.ek2, Class.ek3,  Class.eexx1,  Class.square_boss,  Class.awp53, Class.iceee, Class.awpega, Class.awpegamk2, Class.elite_guardian, Class.god_guardian], 1, 'castle', 'norm']; 
                      sockets.broadcast('P.S love bosses!');
                         break;
                     case 1: 
@@ -4635,7 +4635,7 @@ var maintainloop = (() => {
                         break;
                 }
                 boss.prepareToSpawn(...choice);
-                setTimeout(boss.spawn, 1000);
+                setTimeout(boss.spawn, 3000);
                 // Set the timeout for the spawn functions
             } else if (!census.miniboss) timer++;
         };
